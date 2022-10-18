@@ -5,7 +5,7 @@ import { fetchGreeting } from '../redux/reducers/greetingsReducer';
 
 const Greeting = () => {
   const dispatch = useDispatch();
-  const message = useSelector((state) => state.greeting);
+  const message = useSelector((state) => state.messages);
 
   useEffect(() => {
     dispatch(fetchGreeting());
@@ -19,7 +19,7 @@ const Greeting = () => {
 };
 
 Greeting.propTypes = {
-  message: PropTypes.string
+  message: PropTypes.text
 };
 
 export default Greeting;

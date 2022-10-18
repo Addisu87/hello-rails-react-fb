@@ -6,7 +6,6 @@
 
 - Ruby On Rails (RoR)
 - PostegreSQL
-- Bootstarp
 - React
 - React-router-dom
 - Webpack
@@ -32,7 +31,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-git clone git@github.com:Addisu87/hello-rails-react.
+git clone git@github.com:Addisu87/hello-rails-react-fb.
 cd hello-rails-react/
 
 ### Install
